@@ -22,6 +22,7 @@ return new class extends Migration
             $table->time('Orario di arrivo');
             $table->smallInteger('Codice Treno')->unsigned();
             $table->tinyInteger('Numero Carrozze');
+            $table->date('data di partenza');
             $table->boolean('In orario')->default(true);
             $table->boolean('Cancellato')->default(false);
         });
