@@ -6,6 +6,7 @@
         @foreach ($trains as $train)
             <h5> {{ $train->azienda}} </h5>
             <h5> {{ $train->data_di_partenza}} </h5>
+            <p>--------</p>
         @endforeach
     </div>
 @endsection
